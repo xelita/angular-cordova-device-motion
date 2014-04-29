@@ -27,7 +27,7 @@ Add the module `cordovaDeviceMotionModule` as a dependency to your app module:
 var myapp = angular.module('myapp', ['cordovaDeviceMotionModule']);
 ```
 
-Use the cordovaDeviceMotionModule as controller dependency and call cordovaDeviceMotionModule API:
+Use the cordovaDeviceMotionService as controller dependency and call cordovaDeviceMotionService API:
 
 ```js
 $scope.getCurrentAcceleration = function() {
